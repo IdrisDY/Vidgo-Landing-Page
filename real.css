@@ -178,6 +178,9 @@ h5{
 #mid-h5{
 margin-top: .6em;
 }
+p{
+font-family: "Lato";
+}
 .low-grid{
    display: grid;
    grid-template-columns: 2fr 1fr;
