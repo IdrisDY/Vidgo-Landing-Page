@@ -15,6 +15,7 @@ display: flex;
   width: 2em;
   height: 2em;
  
+ 
 }
 #vidgo-text{
    display: flex;
@@ -756,7 +757,7 @@ margin-left: 0;
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   margin-top: 2em;
+   margin: 2em 1em 2em 1em;
    padding: 1em 6em;
    border-radius: 1em;
    
@@ -809,8 +810,8 @@ footer{
 }
 
 .f-sco-icon{
-   width: 1.5em;
-   height: 1.5em;
+   width: 1em;
+   height: 1em;
 }
 .f-col{
    padding: 5em;
@@ -867,5 +868,13 @@ hr{
    justify-content: center;
    align-items: center;
 
+}
+#img-icon{
+   margin-left: -1em;
+}
+#f-img-icon{
+   width: 1em;
+   height: 1em;
+   margin-right: 2px;
 }
 }
