@@ -163,7 +163,7 @@ h2{
    font-family: "Yanone Kaffeesatz";
    margin-top: 1em;
 }
-h5{
+h4{
    color: rgb(96, 118, 126);
    font-family: "Lato";
 }
@@ -187,6 +187,7 @@ font-family: "Lato";
 .low-grid{
    display: flex;
    flex-direction:row ;
+   justify-content: space-between;
    margin-top: 3em;
 }
 .lgmd{
@@ -261,7 +262,7 @@ margin-left: 3em;
    display: grid;
    grid-template-columns: 2fr 1fr;
 margin-left: 2.7em;
-margin-top: 1em;
+margin-top: 4em;
 }
 #aft-h2{
 font-size:2em ;   
@@ -278,11 +279,18 @@ font-size:2em ;
    flex-direction: column;
 }
 #free-vid{
-   width: 50em
-};
+   width: 30em;
+}
 .soc{
    display: grid;
    grid-template-columns: 1fr 1fr;
+   margin-top: 4em;
+
+ 
+}
+.soc2{
+   display: flex;
+   flex-direction: column;
 }
 #soc-img{
    width: 20em;
@@ -661,7 +669,11 @@ font-size: 2em;
 .low-grid{
    display: flex;
 flex-direction: column-reverse;
+justify-content: space-between;
   
+}
+.lgmd1{
+   margin: 1em 0 1em 0;
 }
 .lgrid1{
    margin-top: -7em;
@@ -692,12 +704,14 @@ flex-direction: column-reverse;
    margin-top: .1em;
 }
 #stub-h5{
-   margin-top: .1em;
+
+   margin-top: .5em;
 }
 #vidconc-img{
   width: 15em;
   height: 12em;
   margin-top:0;
+  margin-left: 0;
 }
 #z-conc-img
 {
@@ -707,8 +721,8 @@ flex-direction: column-reverse;
 }
 .durmt-col2{
 
-margin-left: 0;
-margin-top: 1em;
+margin-left: -1em;
+margin-top: 2em;
 }
 #durh2{
    margin-top: 0em;
@@ -750,6 +764,7 @@ height: 15em;
 .soc{
    display: flex;
    flex-direction: column;
+   
    margin-top: 1em;
 }
 #soc-img{
@@ -762,9 +777,13 @@ border-radius: .5em;
    font-size: 1.5em;
    margin-top: 0;
 }
+.soc1{
+   margin-top: 2em;
+}
 .soc2{
+   margin-top: 1em;
    padding: .7em;
-   margin-left: 1em;
+   margin-left: 0em;
 }
 .review{
    display: flex;
@@ -890,6 +909,9 @@ hr{
    width: 1em;
    height: 1em;
    margin-right: 2px;
+}
+#vidgo-text{
+   font-size: x-large;
 }
 }
 
