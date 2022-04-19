@@ -18,6 +18,9 @@ display: flex;
  
 }
 #vidgo-text{
+   color:rgb(2, 2, 70) ;
+   font-family: "Yanone Kaffeesatz";
+
    display: flex;
    margin-top: .1em;
    
@@ -182,8 +185,8 @@ p{
 font-family: "Lato";
 }
 .low-grid{
-   display: grid;
-   grid-template-columns: 2fr 1fr;
+   display: flex;
+   flex-direction:row ;
    margin-top: 3em;
 }
 .lgmd{
@@ -220,6 +223,7 @@ h6{
    height: .8em;
 }
 #vidconc-img{
+
  margin-left: 2em;
  margin-top: 4em;
 }
@@ -274,9 +278,8 @@ font-size:2em ;
    flex-direction: column;
 }
 #free-vid{
-   width: 100vh;
-   height: 80vh;
-}
+   width: 50em
+};
 .soc{
    display: grid;
    grid-template-columns: 1fr 1fr;
@@ -542,7 +545,7 @@ justify-content:space-evenly;
 
 
 
-@media(max-width:576px){
+@media(max-width: 480px){
    .contain{
       margin: .5em .5em 0 .5em;
       
@@ -656,11 +659,12 @@ font-size: 2em;
    overflow-y: scroll;
 }
 .low-grid{
-   display: grid;
-   grid-template-columns: 3fr 1fr;
+   display: flex;
+flex-direction: column-reverse;
   
 }
 .lgrid1{
+   margin-top: -7em;
    margin-left: 0;
 }
 .lgrid2{
@@ -680,7 +684,8 @@ font-size: 2em;
    font-size: .7em;
 }
 .durmt{
-   grid-template-columns: 1fr 2fr;
+   display: flex;
+   flex-direction: column;
    margin-top: 1.5em;
 }
 .under-durmt{
@@ -690,18 +695,20 @@ font-size: 2em;
    margin-top: .1em;
 }
 #vidconc-img{
-   width: 10em;
-   height:12em;
+  width: 15em;
+  height: 12em;
+  margin-top:0;
 }
 #z-conc-img
 {
-   width: 10em;
-   height: 12em;
+   width: 100%;
+  height: 12em;
    margin-left: 0;
 }
 .durmt-col2{
-grid-template-columns: 1fr 2fr;
+
 margin-left: 0;
+margin-top: 1em;
 }
 #durh2{
    margin-top: 0em;
@@ -716,11 +723,12 @@ margin-left: 0;
    margin-top: -1em;
 }
 #free-vid{
-   width: 15em;
+   width: 100%;
    height: 20em;
 }
 .after{
-   grid-template-columns: 3fr 1fr;
+   display: flex;
+   flex-direction: column-reverse;
    margin: 0;
 }
 .aftg1{
@@ -733,19 +741,22 @@ font-size: 1.5em;
    margin-left: 0;
 }
 #free-vid{
-   width: 10em;
-   height: 10em;
+width: 20em;
+height: 15em;
 }
 #h5-aft{
    margin-left: 0;
 }
 .soc{
+   display: flex;
+   flex-direction: column;
    margin-top: 1em;
 }
 #soc-img{
-width: 10em;
-height: 10em;   
 margin-left: 0;
+width: 100%;
+height: 12em;
+border-radius: .5em;
 }
 #soc-h2{
    font-size: 1.5em;
@@ -880,4 +891,8 @@ hr{
    height: 1em;
    margin-right: 2px;
 }
+}
+
+@media(min-width:768px){
+
 }
