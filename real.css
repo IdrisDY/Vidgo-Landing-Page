@@ -317,7 +317,7 @@ font-size:2em ;
 .review{
    display: flex;
    flex-direction: row;
-justify-content: space-evenly;
+justify-content: space-between;
 margin-left: 3em;
 margin-right: 3em;
 margin-top: 10em;
@@ -325,11 +325,12 @@ padding-bottom: 2em;
 background: linear-gradient(to left, rgb(224, 77, 114),rgb(139, 65, 199));
 }
 .review-s{
+   display: flex;
+   flex-direction: column;
    border: 1em solid rgb(255, 255, 255);
    margin-left: 1em;
    box-shadow: .1em 0em .1em .1em;
    border-radius: .3em;
-   width: 10em;
    background: white;
    margin-top: -6em;
 }
@@ -788,16 +789,19 @@ border-radius: .5em;
 }
 .review{
    display: flex;
-   flex-direction: column;
    justify-content: center;
+   flex-direction: column;
    align-items: center;
    border-radius: 1em;
+     margin: 1em 0 0 0;
+     padding: 1em;
    
 }
 .review-s{
+   display: flex;
+   flex-direction: column;
    margin-top: 1em;
    margin-left: 0em;
-   width: 10em;
    
 }
 #h2-FAQ{
@@ -860,6 +864,10 @@ footer{
 }
 #dropdown ul{
    margin: 1.5em 0 0 1em;
+}
+#p-rev{
+display: flex;
+flex-direction: column;
 }
 .dropdown-list{
    margin: 0;
