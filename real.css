@@ -125,7 +125,7 @@ border-radius: 50%;
 }
 .low{
    display: flex;
-   justify-content: space-around;
+   justify-content: space-evenly;
    margin-top: 1.5em;
    padding: 0 1.5em 0 3em;
 }
@@ -557,6 +557,8 @@ justify-content:space-evenly;
 @media(max-width: 480px){
    .contain{
       margin: .5em .5em 0 .5em;
+      margin-left: 0;
+      padding:2em;
       
    }
    .header{
@@ -593,7 +595,7 @@ justify-content:space-evenly;
    padding: .4em;
 }
 #acc-btn{
-   padding:  .5em .5em;
+   padding:  .8em .5em;
    font-size: .7em;
    border-style: none;
 
@@ -616,7 +618,7 @@ font-size: 2em;
    margin-top: -.5em;
 }
 #start{
-   padding: .3em;
+   padding: .8em .5em;
    border-radius: .3em;
    margin-right: .4em;
    border: none;
@@ -625,7 +627,7 @@ font-size: 2em;
 }
 #watch{
    
-   padding: .3em;
+   padding: .8em .5em;
    border-radius: .3em;
    border: none;
    font-size: .7em;
@@ -812,6 +814,11 @@ border-radius: .5em;
 font-size: 2em;   
    
 }
+.FAQ{
+   display: flex;
+   flex-direction: column;
+   margin-top: 17em;
+}
 .Qcol1{
    
    margin-left: 0;
@@ -832,7 +839,8 @@ footer{
    display: flex;
    flex-direction: row;
    justify-content: space-evenly;
-   margin: 1em .5em 1em .5em;
+   margin: 1em 1em ;
+   padding: 1em 2em;
 }
 .btn-inp{
    display: flex;
@@ -932,4 +940,5 @@ hr{
 .contain{
    padding-right: 2em;
 }
+
 }
