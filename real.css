@@ -557,7 +557,6 @@ justify-content:space-evenly;
 @media(max-width: 480px){
    .contain{
       margin: .5em .5em 0 .5em;
-      margin-left: 0;
       padding:2em;
       
    }
@@ -862,7 +861,10 @@ footer{
 }
 .f-col{
    padding: 5em;
-   margin-left: 6em;
+   margin-left: 7em;
+}
+#fcol1{
+   padding-left: .8em;
 }
 .fcol4icon{
    padding: 0 .5em 0 .7em;
