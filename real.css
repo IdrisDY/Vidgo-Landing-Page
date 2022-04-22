@@ -709,6 +709,9 @@ justify-content: space-between;
 
    margin-top: .5em;
 }
+.swiper-slide{
+   padding-bottom: 2em;
+}
 #vidconc-img{
   width: 15em;
   height: 12em;
